@@ -1,0 +1,32 @@
+# 🌍 Global University Rankings Explorer
+
+This project explores the **QS World University Rankings 2025** dataset using SQL to uncover insights about the top global universities. It focuses on understanding rank distribution, performance by country, and academic strengths using SQL queries.
+
+## 📁 Dataset
+
+- **Source:** [Kaggle – QS World University Rankings 2025]
+- **File:** `QS World University Rankings 2025 (Top global universities).csv`
+
+## 🛠️ Tools Used
+
+- SQL (MySQL)
+- MySQL Workbench
+- CSV to SQL import tools
+
+## 📌 Objectives
+
+- Explore global university rankings using SQL.
+- Analyze top universities by country.
+- Compare average rankings across different regions.
+- Identify academic leaders using available scores.
+
+## 🔍 SQL Tasks
+
+### 1. Create Table
+
+```sql
+create database qsranking;
+use database qsranking;
+CREATE TABLE qs_world_university
+(
+);
